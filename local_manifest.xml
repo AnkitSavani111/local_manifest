@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remotes -->
+	<remote  name="PrajjuS"
+                 fetch="https://github.com/PrajjuS" />
+        <remote  name="BlackSuan"
+                 fetch="https://github.com/Blacksuan19" />
+	<remote  name="Godlight"
+		 fetch="https://gitlab.com/starlight5234" />
+	<remote  name="AndroidSource"
+                 fetch="https://android.googlesource.com" />
+        <remote  name="PixelExperience"
+                 fetch="https://github.com/PixelExperience" />
+	<remote  name="Jabiyeff"
+		 fetch="https://github.com/Jabiyeff-Project" />
+	<remote  name="AddyGod"
+		 fetch="https://github.com/adnan-44" />
+	<remote  name="Uni"
+                 fetch="https://github.com/GhostMaster69-dev" />
+	<remote  name="clang"
+		 fetch="https://github.com/kdrag0n" />
+        <remote  name="PE"
+                 fetch="https://github.com/PixelExperience" />
+
+	<!-- Device side things -->
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="stable" clone-depth="1" />
+
+	<!-- Hals -->
+	<remove-project name="hardware_qcom-caf_wlan" />
+	<remove-project name="hardware_qcom-caf_msm8996_media" />
+	<remove-project name="hardware_qcom-caf_msm8996_audio" />
+	<remove-project name="hardware_qcom-caf_msm8996_display" />
+	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" clone-depth="1" />
+ 
+</manifest>
