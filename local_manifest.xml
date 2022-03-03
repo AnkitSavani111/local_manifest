@@ -22,7 +22,7 @@
  	<project path="packages/apps/FMRadio" name="GhostMaster69-dev/android_packages_apps_FMRadio" remote="github" revision="12" />
 	
 	<!-- Sepolicy -->
- 	<remove-project name="platform_device_qcom_sepolicy-legacy-um" />
+ 	<remove-project name="platform_device_qcom_sepolicy" />
 	<project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="github" revision="aosp-12-caf-4.9-S" />
  
 </manifest>
