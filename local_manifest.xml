@@ -23,6 +23,6 @@
 	
 	<!-- Sepolicy -->
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
-	<project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="github" revision="aosp-12-caf-4.9-S" />
+	<project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="github" revision="evolution" />
  
 </manifest>
