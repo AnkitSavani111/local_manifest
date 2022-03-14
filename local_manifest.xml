@@ -11,7 +11,7 @@
 	<!-- Device side things -->
  	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince" remote="github" revision="EvolutionX" />
  	<project path="vendor/xiaomi/vince" name="AnkitSavani111/android_vendor_xiaomi_vince" remote="github" revision="12" />
- 	<project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="stable" />
+ 	<project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 	
 	<!-- Packages -->
 	<project path="packages/apps/CameraGo" name="GhostMaster69-dev/android_packages_apps_CameraGo" remote="github" revision="main" />
