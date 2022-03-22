@@ -11,7 +11,7 @@
 		fetch="https://github.com/AnkitSavani111" />
 		
  	<!-- Trees -->
- 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AnkitSavani" revision="Evo-staging" />
+ 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AnkitSavani" revision="Evo-2" />
   	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="AnkitSavani" revision="12" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" clone-depth="1" />
 	
