@@ -19,7 +19,11 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
 	
 	<!-- Sepolicy -->
+	<remove-project name="device_evolution_sepolicy" />
+  	<project path="device/evolution/sepolicy" name="device_evolution_sepolicy" remote="AnkitSavani" revision="snow" />
+	
+	<!-- Sepolicy 
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
-	<project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="github" revision="evolution" />
+	<project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy" remote="github" revision="evolution" /> -->
 														
 </manifest>
