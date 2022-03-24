@@ -5,6 +5,9 @@
 	<remote  name="Gitlab"
 	 	 fetch="https://gitlab.com/" />
 
+        <remote name="AnkitSavani"
+		 fetch="https://github.com/AnkitSavani111" />
+
 	<!-- Cosmic-Clang v14.0.0 Toolchain -->
  	<project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" />
 	
