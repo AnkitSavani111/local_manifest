@@ -10,17 +10,19 @@
    fetch="https://gitlab.com/" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="AnkitSavani111/device_xiaomi_vince" remote="github" revision="Evo-snow" />
+ <project path="device/xiaomi/vince" name="AnkitSavani111/device_xiaomi_vince" remote="github" revision="EvolutionX" />
  <project path="vendor/xiaomi/vince" name="AnkitSavani111/vendor_xiaomi_vince" remote="github" revision="12-stable" />
  <project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 
  <!-- Cosmic-Clang v14.0.0 Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" />
 
- <!-- Packages -->
- <project path="packages/apps/FMRadio" name="anandhan07/android_packages_apps_FMRadio" remote="github" revision="12" />
-
- <!-- Sepolicy 
- <project path="device/qcom/sepolicy-legacy-um" name="anandhan07/device_qcom_sepolicy-legacy-um" remote="github" revision="spark-12" /> -->
+ <!-- HALs -->
+ <remove-project name="hardware_qcom-caf_wlan" />
+ <project path="hardware/qcom-caf/wlan" name="AnkitSavani111/hardware_qcom_wlan" remote="github" revision="12-caf" /> -->
+ 
+ <!-- Sepolicy -->
+ <remove-project name="device_qcom_sepolicy-legacy-um" />
+	<project path="device/qcom/sepolicy-legacy-um" name="AnkitSavani111/android_device_qcom_sepolicy-legacy-um" remote="github" revision="evolution" />
 
 </manifest>
