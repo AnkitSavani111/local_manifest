@@ -23,6 +23,6 @@
  
  <!-- Sepolicy -->
  <remove-project name="device_qcom_sepolicy-legacy-um" />
-	<project path="device/qcom/sepolicy-legacy-um" name="AnkitSavani111/android_device_qcom_sepolicy-legacy-um" remote="github" revision="evolution" />
+ <project path="device/qcom/sepolicy-legacy-um" name="AnkitSavani111/android_device_qcom_sepolicy-legacy-um" remote="github" revision="evolution" />
 
 </manifest>
