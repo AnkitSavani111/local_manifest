@@ -2,14 +2,19 @@
 <manifest>
 
 	<!-- Remotes -->
+        <remote name="cosmic"
+		 fetch="https://gitlab.com/GhostMaster69-dev" />
+
 	<remote  name="Gitlab"
 	 	 fetch="https://gitlab.com/" />
 
         <remote name="AnkitSavani"
 		 fetch="https://github.com/AnkitSavani111" />
 
-	<!-- Cosmic-Clang v14.0.0 Toolchain -->
- 	<project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" />
+	<!-- Clang -->
+ 	<!-- <project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" /> -->
+        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
+	
 	
 	<!-- Device side things -->
  	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince" remote="github" revision="Evolution-X" />
