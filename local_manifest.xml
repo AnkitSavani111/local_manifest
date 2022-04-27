@@ -25,8 +25,8 @@
 	<project path="packages/apps/CameraGo" name="GhostMaster69-dev/android_packages_apps_CameraGo" remote="github" revision="main" />
  	<project path="packages/apps/FMRadio" name="GhostMaster69-dev/android_packages_apps_FMRadio" remote="github" revision="12" />
 		
-	<!-- Sepolicy -->
+	<!-- Sepolicy 
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
-	<project path="device/qcom/sepolicy-legacy-um" name="AnkitSavani111/android_device_qcom_sepolicy" remote="github" revision="evolution" />
+	<project path="device/qcom/sepolicy-legacy-um" name="AnkitSavani111/android_device_qcom_sepolicy" remote="github" revision="evolution" /> -->
  
 </manifest>
