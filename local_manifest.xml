@@ -28,7 +28,7 @@
 	
 	<!-- Sepolicy -->
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
- 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="anandhan07" revision="spark-12.1" />
+ 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" />
 		
 	<!-- Sepolicy 
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
