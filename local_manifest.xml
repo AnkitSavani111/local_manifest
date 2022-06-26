@@ -17,8 +17,8 @@
 	
 	
 	<!-- Device side things -->
- 	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince" remote="github" revision="testing" />
- 	<project path="vendor/xiaomi/vince" name="AnkitSavani111/android_vendor_xiaomi_vince" remote="github" revision="testing" />
+ 	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince" remote="github" revision="testing-1" />
+ 	<project path="vendor/xiaomi/vince" name="AnkitSavani111/android_vendor_xiaomi_vince" remote="github" revision="testing-1" />
  	<project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 	
 	<!-- Packages -->
