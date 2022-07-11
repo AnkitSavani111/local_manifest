@@ -2,6 +2,8 @@
 <manifest>
 
 	<!-- Remotes -->
+	<remote name="clang" fetch="https://gitlab.com/anandhan07/" />
+
 	<remote name="anandhan07" fetch="https://github.com/anandhan07/" />
 	
         <remote name="cosmic"
@@ -15,7 +17,8 @@
 
 	<!-- Clang -->
  	<!-- <project path="prebuilts/clang/host/linux-x86/clang-14" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" /> -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
+        <!-- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" /> -->
+ 	<project path="prebuilts/clang/host/linux-x86/clang-14" name="aosp-clang" remote="clang" revision="clang-14" clone-depth="1" />
 	
 	
 	<!-- Device side things -->
