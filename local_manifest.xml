@@ -24,9 +24,6 @@
  	<project path="vendor/xiaomi/vince" name="AnkitSavani111/android_vendor_xiaomi_vince" remote="github" revision="Evolution-X" />
  	<project path="kernel/xiaomi/vince" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 	
-	<!-- Packages -->
- 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="anandhan07" revision="12" />
-	
 	<!-- Sepolicy -->
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
  	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" />
