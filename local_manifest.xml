@@ -21,12 +21,9 @@
 	
 	<!-- Device side things -->
  	<project path="device/xiaomi/msm8953-common" name="AnkitSavani111/device_xiaomi_msm8953-common" remote="github" revision="Evolution-X" />
+ 	<project path="vendor/xiaomi/msm8953-common" name="AnkitSavani111/vendor_xiaomi_msm8953-common" remote="github" revision="Evolution-X" />
  	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince-2" remote="github" revision="Evolution-X" />
  	<project path="vendor/xiaomi/vince" name="AnkitSavani111/proprietary_vendor_xiaomi_vince" remote="github" revision="Evolution-X" />
  	<project path="kernel/xiaomi/msm8953" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 	
-	<!-- Sepolicy
- 	<remove-project name="device_qcom_sepolicy-legacy-um" />
- 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" /> -->
-		
 </manifest>
