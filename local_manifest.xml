@@ -21,9 +21,9 @@
 	
 	<!-- Device side things -->
  	<project path="device/xiaomi/msm8953-common" name="AnkitSavani111/android_device_xiaomi_msm8953-common" remote="github" revision="Evolution-X-snow" />
- 	<project path="vendor/xiaomi/msm8953-common" name="AnkitSavani111/vendor_xiaomi_msm8953-common" remote="github" revision="Evolution-X" />
- 	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince-2" remote="github" revision="Evolution-X" />
- 	<project path="vendor/xiaomi/vince" name="AnkitSavani111/proprietary_vendor_xiaomi_vince" remote="github" revision="Evolution-X" />
+ 	<project path="vendor/xiaomi/msm8953-common" name="AnkitSavani111/android_vendor_xiaomi_msm8953-common" remote="github" revision="Evolution-X-snow" />
+ 	<project path="device/xiaomi/vince" name="AnkitSavani111/android_device_xiaomi_vince" remote="github" revision="Evolution-X-snow" />
+ 	<project path="vendor/xiaomi/vince" name="AnkitSavani111/android_vendor_xiaomi_vince" remote="github" revision="Evolution-X-snow" />
  	<project path="kernel/xiaomi/msm8953" name="GhostMaster69-dev/android_kernel_xiaomi_vince" remote="github" revision="12" />
 	
 </manifest>
