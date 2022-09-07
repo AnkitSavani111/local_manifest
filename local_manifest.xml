@@ -15,8 +15,8 @@
         <remote name="AnkitSavani"
 		 fetch="https://github.com/AnkitSavani111" />
 
-	<!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
+	<!-- Clang 
+        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" /> -->
 	
 	
 	<!-- Device side things -->
