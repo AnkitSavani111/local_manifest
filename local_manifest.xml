@@ -18,8 +18,8 @@
  	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="AnkitSavani" revision="Evolution-X-tiramisu" />
  	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="unitrix" revision="12" />
 	
-	<!-- Sepolicy -->
+	<!-- Sepolicy 
  	<remove-project name="device_qcom_sepolicy-legacy-um" />
- 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" />
+ 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" /> -->
 		
 </manifest>
