@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Remotes -->
-        <remote name="AnkitSavani"
-		fetch="https://github.com/AnkitSavani111/" />
+ <project path="device/xiaomi/munch" name="AnkitSavani111/android_device_xiaomi_munch" remote="github" revision="Evolution-X-tiramisu" />
+ <project path="device/xiaomi/sm8250-common" name="AnkitSavani111/android_device_xiaomi_sm8250-common" remote="github" revision="Evolution-X-tiramisu" />
+ <project path="kernel/xiaomi/sm8250" name="UtsavBalar1231/kernel_xiaomi_sm8250" remote="github" revision="android12-next" />
+ <project path="vendor/xiaomi/munch" name="AnkitSavani111/android_vendor_xiaomi_munch" remote="gitlab" revision="Evolution-X-tiramisu" />
+ <project path="vendor/xiaomi/sm8250-common" name="AnkitSavani111/android_vendor_xiaomi_sm8250-common" remote="gitlab" revision="Evolution-X-tiramisu" />
 
-        <remote name="unitrix"
-		fetch="https://github.com/GhostMaster69-dev/" />
-
-	<!-- Clang -->
-	<!--
-        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
-        -->
-
-	<!-- Device side things -->
- 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="AnkitSavani" revision="Evolution-X-tiramisu" />
- 	<project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="AnkitSavani" revision="Evolution-X-tiramisu" />
- 	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="unitrix" revision="12" />
-	
-	<!-- Sepolicy 
- 	<remove-project name="device_qcom_sepolicy-legacy-um" />
- 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AnkitSavani" revision="evolution" /> -->
-		
 </manifest>
