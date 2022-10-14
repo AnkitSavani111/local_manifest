@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <remote name="qp" 
-     fetch="https://gitlab.com/varunhardgamer" />
  
  <project path="device/xiaomi/munch" name="AnkitSavani111/android_device_xiaomi_munch" remote="github" revision="Evolution-X-tiramisu" />
  <project path="device/xiaomi/sm8250-common" name="AnkitSavani111/android_device_xiaomi_sm8250-common" remote="github" revision="Evolution-X-tiramisu" />
  <project path="vendor/xiaomi/munch" name="AnkitSavani111/android_vendor_xiaomi_munch" remote="gitlab" revision="Evolution-X-tiramisu" />
- <!-- <project path="vendor/xiaomi/sm8250-common" name="AnkitSavani111/android_vendor_xiaomi_sm8250-common" remote="gitlab" revision="Evolution-X-tiramisu" /> -->
- <project path="vendor/xiaomi/sm8250-common" name="riteshm321/vendor_xiaomi_sm8250-common" remote="github" revision="master" />
+ <project path="vendor/xiaomi/sm8250-common" name="AnkitSavani111/android_vendor_xiaomi_sm8250-common" remote="gitlab" revision="Evolution-X-tiramisu" />
  <project path="kernel/xiaomi/sm8250" name="UtsavBalar1231/kernel_xiaomi_sm8250" remote="github" revision="android12-stable" />
 
-  <!-- Toolchain 
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="qp" revision="16" clone-depth="1" /> -->
- 
 </manifest>
