@@ -6,6 +6,6 @@
  <project path="vendor/xiaomi/munch" name="AnkitSavani111/android_vendor_xiaomi_munch" remote="gitlab" revision="Evolution-X-tiramisu" />
  <project path="vendor/xiaomi/sm8250-common" name="AnkitSavani111/android_vendor_xiaomi_sm8250-common" remote="gitlab" revision="Evolution-X-tiramisu" />
  <project path="kernel/xiaomi/sm8250" name="UtsavBalar1231/kernel_xiaomi_sm8250" remote="github" revision="android12-stable" />
- <project path="vendor/xiaomi/munch-miuicamera" name="AnkitSavani111/android_vendor_xiaomi_munch-miuicamera" remote="gitlab" revision="pyro" />
+ <project path="vendor/xiaomi/munch-miuicamera" name="AnkitSavani111/android_vendor_xiaomi_miuicamera" remote="gitlab" revision="pyro" />
 
 </manifest>
