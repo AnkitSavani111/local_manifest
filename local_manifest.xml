@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <remote  name="gitlab" fetch="https://gitlab.com" />
  
  <project path="device/xiaomi/munch" name="AnkitSavani111/android_device_xiaomi_munch" remote="github" revision="Evolution-X-tiramisu" />
  <project path="device/xiaomi/sm8250-common" name="AnkitSavani111/android_device_xiaomi_sm8250-common" remote="github" revision="Evolution-X-tiramisu" />
