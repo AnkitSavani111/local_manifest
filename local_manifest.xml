@@ -8,5 +8,6 @@
  <project path="kernel/xiaomi/sm8250" name="madmax7896/kernel_xiaomi_sm8250" remote="github" revision="arrow-13.0" />
  <project path="vendor/xiaomi/munch-miuicamera" name="AnkitSavani111/android_vendor_xiaomi_munch-miuicamera" remote="gitlab" revision="pyro" />
  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
- <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" revision="refs/tags/android-13.0.0_r11" clone-depth="1" /> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  
 </manifest>
