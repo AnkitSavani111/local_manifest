@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
- <project path="device/xiaomi/munch" name="AnkitSavani111/android_device_xiaomi_munch" remote="github" revision="Evolution-X-tiramisu" />
- <project path="device/xiaomi/sm8250-common" name="AnkitSavani111/android_device_xiaomi_sm8250-common" remote="github" revision="Evolution-X-tiramisu" />
- <project path="vendor/xiaomi/munch" name="AnkitSavani111/android_vendor_xiaomi_munch" remote="gitlab" revision="Evolution-X-tiramisu" />
- <project path="vendor/xiaomi/sm8250-common" name="AnkitSavani111/android_vendor_xiaomi_sm8250-common" remote="gitlab" revision="Evolution-X-tiramisu" />
- <project path="kernel/xiaomi/sm8250" name="madmax7896/kernel_xiaomi_sm8250" remote="github" revision="arrow-13.0" />
- <project path="vendor/xiaomi/munch-miuicamera" name="AnkitSavani111/android_vendor_xiaomi_munch-miuicamera" remote="gitlab" revision="pyro" />
-  
+
+ <!-- Remotes -->
+    <remote name="me-hub"
+            fetch="https://github.com/AnkitSavani111/"
+            clone-depth="1" />
+
+    <remote name="me-lab"
+            fetch="https://gitlab.com/AnkitSavani111/"
+            clone-depth="1" />
+
+    <remote name="madmax"
+            fetch="https://github.com/madmax7896/"
+            clone-depth="1" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="me-hub" revision="Evolution-X-tiramisu" />
+ <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="me-lab" revision="Evolution-X-tiramisu" />
+ <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="me-hub" revision="Evolution-X-tiramisu" />
+ <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="me-lab" revision="Evolution-X-tiramisu" />
+ <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="madmax" revision="arrow-13.0" />
+ <project path="vendor/xiaomi/munch-miuicamera" name="android_vendor_xiaomi_munch-miuicamera" remote="me-lab" revision="pyro" />
+
 </manifest>
