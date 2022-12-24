@@ -13,6 +13,10 @@
     <remote name="madmax"
             fetch="https://github.com/madmax7896/"
             clone-depth="1" />
+    
+    <remote name="nexus"
+            fetch="https://github.com/projects-nexus/"
+            clone-depth="1" />
  
     <remote name="clang"
             fetch="https://gitlab.com/Amritorock/"
@@ -23,7 +27,7 @@
  <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="me-lab" revision="Evolution-X-tiramisu" />
  <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="me-hub" revision="Evolution-X-tiramisu" />
  <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="me-lab" revision="Evolution-X-tiramisu" />
- <project path="kernel/xiaomi/sm8250" name="Realking_xiaomi_sm8250" remote="me-hub" revision="stagging" />
+ <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="nexus" revision="stable" />
  <!-- <project path="vendor/xiaomi/munch-miuicamera" name="android_vendor_xiaomi_munch-miuicamera" remote="me-lab" revision="pyro" /> -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
