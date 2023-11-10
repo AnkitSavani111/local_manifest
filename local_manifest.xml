@@ -30,7 +30,7 @@
  <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-16" remote="me-lab" revision="main" clone-depth="1"/> 
  <project path="prebuilts/clang/host/linux-x86/aosp-clang" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1"/> -->
  
- <!-- Packages 
- <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" clone-depth="1" />  -->
+ <!-- Packages -->
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" clone-depth="1" />  
 
 </manifest>
