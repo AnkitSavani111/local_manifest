@@ -23,7 +23,7 @@
  <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="me-lab" revision="Evolution-X-udc" />
  <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="me-hub" revision="Evolution-X-udc" />
  <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="me-lab" revision="Evolution-X-udc" />
- <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="nexus" revision="pelt-2" />
+ <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="me-hub" revision="pelt-2" />
 
  <!-- Clang 
  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" /> 
